@@ -13,16 +13,21 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
     <script>
         window.$docsify = {
-            name: '',
+            name: 'Kilroy Docs',
             repo: '',
             loadSidebar: true,
             subMaxLevel: 2,
             plugins: [
                 EditOnGithubPlugin.create("https://github.com/kilroy-tech/kilroy/tree/main/docs/")
-            ]
+            ],
+            copyCode: {
+                buttonText: '⎘ Copy'
+            }
         }
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
 </body>
 </html>
