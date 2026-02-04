@@ -1,4 +1,4 @@
-# kilroy
+# Kilroy
 Landing repo for the Kilroy Project
 
 # Other Resources
